@@ -101,6 +101,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-left: 100px;
 }
 .divNum {
   color: rgba(0, 0, 0, 0.329);
@@ -132,17 +133,16 @@ h4 {
   align-items: center;
   gap: 5px;
 }
-.bigDiv {
-  padding-inline: 150px;
-}
+
 .divLeft {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 60%;
+  width: 1800px;
 }
 .bigDiv2 {
   margin: 80px;
+  display: flex;
 }
 .article {
   margin-block: 30px;
@@ -173,4 +173,37 @@ h4 {
 .article {
   display: flex;
   gap: 50px;
+}
+
+.divTime span {
+  background-color: rgba(128, 128, 128, 0.233);
+  padding: 3px;
+  border-radius: 10px;
+}
+.divRight {
+  margin-inline: 50px;
+}
+.divRight p {
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.divRight div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.divRight a {
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.151);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.541);
+  gap: 5px;
+  margin: 5px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
